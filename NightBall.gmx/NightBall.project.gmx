@@ -4,10 +4,48 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sounds name="sound">
+    <sound>sound\hypnothis</sound>
+    <sound>sound\bluewhale</sound>
+    <sound>sound\beep</sound>
+    <sound>sound\explosion</sound>
+  </sounds>
+  <sprites name="sprites">
+    <sprites name="menu">
+      <sprite>sprites\AppTitle</sprite>
+      <sprite>sprites\playmoon</sprite>
+      <sprite>sprites\soundicon</sprite>
+      <sprite>sprites\soundmute</sprite>
+      <sprite>sprites\starbg1</sprite>
+      <sprite>sprites\starbg3</sprite>
+      <sprite>sprites\starbg2</sprite>
+      <sprite>sprites\starbg4</sprite>
+    </sprites>
+    <sprites name="game">
+      <sprite>sprites\TLgreen</sprite>
+      <sprite>sprites\BLyellow</sprite>
+      <sprite>sprites\TRred</sprite>
+      <sprite>sprites\BRblue</sprite>
+      <sprite>sprites\stargreen</sprite>
+      <sprite>sprites\staryellow</sprite>
+      <sprite>sprites\starred</sprite>
+      <sprite>sprites\starblue</sprite>
+    </sprites>
+    <sprites name="gameover">
+      <sprite>sprites\refreshmoon</sprite>
+      <sprite>sprites\home</sprite>
+    </sprites>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\menubg</background>
+    <background>background\gamebg</background>
+  </backgrounds>
   <paths name="paths"/>
+  <rooms name="rooms">
+    <room>rooms\menuscene</room>
+    <room>rooms\gamescene</room>
+    <room>rooms\gameoverscene</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
