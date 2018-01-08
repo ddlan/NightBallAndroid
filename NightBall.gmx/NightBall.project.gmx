@@ -17,8 +17,8 @@
       <sprite>sprites\soundicon</sprite>
       <sprite>sprites\soundmute</sprite>
       <sprite>sprites\starbg1</sprite>
-      <sprite>sprites\starbg3</sprite>
       <sprite>sprites\starbg2</sprite>
+      <sprite>sprites\starbg3</sprite>
       <sprite>sprites\starbg4</sprite>
     </sprites>
     <sprites name="game">
@@ -30,17 +30,40 @@
       <sprite>sprites\staryellow</sprite>
       <sprite>sprites\starred</sprite>
       <sprite>sprites\starblue</sprite>
+      <sprite>sprites\screen</sprite>
     </sprites>
     <sprites name="gameover">
       <sprite>sprites\refreshmoon</sprite>
       <sprite>sprites\home</sprite>
     </sprites>
+    <sprite>sprites\nightball</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\menubg</background>
     <background>background\gamebg</background>
   </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <objects name="menu">
+      <object>objects\AppTitleO</object>
+      <object>objects\playmoonO</object>
+      <object>objects\soundiconO</object>
+      <object>objects\soundmuteO</object>
+      <object>objects\starbg1O</object>
+      <object>objects\starbg2O</object>
+      <object>objects\starbg3O</object>
+      <object>objects\starbg4O</object>
+    </objects>
+    <objects name="game">
+      <object>objects\leftscreen</object>
+      <object>objects\rightscreen</object>
+      <object>objects\nightballO</object>
+      <object>objects\TLgreenO</object>
+      <object>objects\BLyellowO</object>
+      <object>objects\TRredO</object>
+      <object>objects\BRblueO</object>
+    </objects>
+  </objects>
   <rooms name="rooms">
     <room>rooms\menuscene</room>
     <room>rooms\gamescene</room>
