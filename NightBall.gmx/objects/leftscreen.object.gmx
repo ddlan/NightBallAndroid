@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>with (nightballO) {
     image_angle -= 90
-    }
+}
 </string>
           </argument>
         </arguments>

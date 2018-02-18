@@ -22,15 +22,16 @@
       <sprite>sprites\starbg4</sprite>
     </sprites>
     <sprites name="game">
-      <sprite>sprites\TLgreen</sprite>
-      <sprite>sprites\BLyellow</sprite>
-      <sprite>sprites\TRred</sprite>
-      <sprite>sprites\BRblue</sprite>
+      <sprite>sprites\ballgreen</sprite>
+      <sprite>sprites\ballyellow</sprite>
+      <sprite>sprites\ballred</sprite>
+      <sprite>sprites\ballblue</sprite>
       <sprite>sprites\stargreen</sprite>
       <sprite>sprites\staryellow</sprite>
       <sprite>sprites\starred</sprite>
       <sprite>sprites\starblue</sprite>
       <sprite>sprites\screen</sprite>
+      <sprite>sprites\sprite20</sprite>
     </sprites>
     <sprites name="gameover">
       <sprite>sprites\refreshmoon</sprite>
@@ -43,6 +44,9 @@
     <background>background\gamebg</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\Raleway</font>
+  </fonts>
   <objects name="objects">
     <objects name="menu">
       <object>objects\AppTitleO</object>
@@ -55,13 +59,18 @@
       <object>objects\starbg4O</object>
     </objects>
     <objects name="game">
+      <object>objects\ballgreenO</object>
+      <object>objects\ballyellowO</object>
+      <object>objects\ballredO</object>
+      <object>objects\ballblueO</object>
+      <object>objects\stargreenO</object>
+      <object>objects\staryellowO</object>
+      <object>objects\starredO</object>
+      <object>objects\starblueO</object>
       <object>objects\leftscreen</object>
       <object>objects\rightscreen</object>
       <object>objects\nightballO</object>
-      <object>objects\TLgreenO</object>
-      <object>objects\BLyellowO</object>
-      <object>objects\TRredO</object>
-      <object>objects\BRblueO</object>
+      <object>objects\spawn_controller</object>
     </objects>
   </objects>
   <rooms name="rooms">
