@@ -25,8 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//audio_play_sound(bluewhale, 50, true)
-</string>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -70,8 +69,11 @@
             <kind>1</kind>
             <string>draw_self()
 
-draw_set_font(Raleway);
-draw_text_transformed(room_width / 2, room_height * 0.75, score, 1, 1, 0);
+draw_set_font(Raleway)
+draw_set_colour(c_white)
+draw_text_transformed(room_width * 0.5, room_height * 0.8, score, 1.5, 1.5, 0)
+
+draw_set_halign(fa_center)
 </string>
           </argument>
         </arguments>

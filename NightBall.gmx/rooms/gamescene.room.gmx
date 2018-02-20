@@ -54,10 +54,10 @@
     <instance objName="nightballO" x="560" y="960" name="inst_13E67EE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leftscreen" x="560" y="-32" name="inst_85F50F6C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="rightscreen" x="16" y="-16" name="inst_7AC7D37F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ballyellowO" x="560" y="976" name="inst_D63DB647" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ballgreenO" x="560" y="976" name="inst_6F0FD2C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ballredO" x="560" y="976" name="inst_ED3825CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ballblueO" x="560" y="976" name="inst_F4F5271B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ballyellowO" x="544" y="976" name="inst_D63DB647" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ballgreenO" x="544" y="976" name="inst_6F0FD2C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ballredO" x="544" y="976" name="inst_ED3825CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ballblueO" x="544" y="976" name="inst_F4F5271B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn_controller" x="1056" y="1904" name="inst_E094556F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

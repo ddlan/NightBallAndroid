@@ -48,6 +48,7 @@
     <font>fonts\Raleway</font>
   </fonts>
   <objects name="objects">
+    <object>objects\initobj</object>
     <objects name="menu">
       <object>objects\AppTitleO</object>
       <object>objects\playmoonO</object>
@@ -72,8 +73,16 @@
       <object>objects\nightballO</object>
       <object>objects\spawn_controller</object>
     </objects>
+    <objects name="gameover">
+      <object>objects\refreshmoonO</object>
+      <object>objects\homeO</object>
+    </objects>
+    <object>objects\fade_game</object>
+    <object>objects\fade_gameover</object>
+    <object>objects\fade_menu</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Init</room>
     <room>rooms\menuscene</room>
     <room>rooms\gamescene</room>
     <room>rooms\gameoverscene</room>

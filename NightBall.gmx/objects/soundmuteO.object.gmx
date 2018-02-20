@@ -60,6 +60,8 @@
           <argument>
             <kind>1</kind>
             <string>audio_master_gain(1)
+
+global.mute = false
 </string>
           </argument>
         </arguments>

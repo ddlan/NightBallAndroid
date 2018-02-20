@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>timing = 60
+            <string>audio_play_sound(bluewhale, 1, true)
+
+timing = 60
 alarm[0] = 30
 </string>
           </argument>
