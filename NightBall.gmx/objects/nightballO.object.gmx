@@ -25,7 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>left_turn = false
+right_turn = false
+turning = false
+des_angle = 0
+</string>
           </argument>
         </arguments>
       </action>
@@ -46,6 +50,53 @@
           <argument>
             <kind>0</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>var turnspeed = 11.25
+
+if (left_turn == true) {
+    if (turning == true) {
+        image_angle -= turnspeed
+    } else {
+        des_angle = image_angle - 90
+        turning = true
+    }
+}
+
+if (right_turn == true) {
+    if (turning == true) {
+        image_angle += turnspeed
+    } else {
+        des_angle = image_angle + 90
+        turning = true
+    }
+}
+
+if (image_angle == des_angle) {
+    left_turn = false
+    right_turn = false
+    turning = false
+}
+</string>
           </argument>
         </arguments>
       </action>
@@ -71,7 +122,7 @@
 
 draw_set_font(Raleway)
 draw_set_colour(c_white)
-draw_text_transformed(room_width * 0.5, room_height * 0.8, score, 1.5, 1.5, 0)
+draw_text_transformed(room_width * 0.5, room_height * 0.79, score, 1.5, 1.5, 0)
 
 draw_set_halign(fa_center)
 </string>

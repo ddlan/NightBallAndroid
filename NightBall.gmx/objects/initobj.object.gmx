@@ -26,6 +26,12 @@
           <argument>
             <kind>1</kind>
             <string>global.mute = false
+global.highscore = 0
+
+// Load the saved scores 
+    ini_open("save.ini")
+    global.highscore = ini_read_real("scores", "score", 0)
+    ini_close()
 
 room_goto_next()
 </string>

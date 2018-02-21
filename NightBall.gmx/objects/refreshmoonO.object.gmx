@@ -31,7 +31,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="6" enumb="0">
+    <event eventtype="6" enumb="4">
       <action>
         <libid>1</libid>
         <id>201</id>
@@ -85,10 +85,10 @@ draw_set_colour(c_white)
 draw_text_transformed(room_width * 0.5, room_height * 0.15, "Again?", 2, 2, 0)
 
 var displayscore = "Score: " + string(score)
-var displayhiscore = "High Score: " + string(highscore_value(1))
+var displayhiscore = "High Score: " + string(global.highscore)
 
-draw_text_transformed(room_width * 0.5, room_height * 0.72, displayscore, 1, 1, 0)
-draw_text_transformed(room_width * 0.5, room_height * 0.79, displayhiscore, 1, 1, 0)
+draw_text_transformed(room_width * 0.5, room_height * 0.73, displayscore, 1, 1, 0)
+draw_text_transformed(room_width * 0.5, room_height * 0.80, displayhiscore, 1, 1, 0)
 
 draw_set_halign(fa_center)
 </string>

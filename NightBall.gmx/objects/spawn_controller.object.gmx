@@ -56,73 +56,73 @@ speedmod = 1111 / (timing + 30)
 
 if star &lt; 4 {
     if star &lt; 1 {
-        with (instance_create(0, 0, stargreenO)) {
+        with (instance_create(-90, -160, stargreenO)) {
             move_towards_point(560, 960, other.speedmod)
         }
     } else if star &lt; 2 {
-        with (instance_create(0, 0, staryellowO)) {
+        with (instance_create(-90, -160, staryellowO)) {
             move_towards_point(560, 960, other.speedmod)
         }
     } else if star &lt; 3 {
-        with (instance_create(0, 0, starredO)) {
+        with (instance_create(-90, -160, starredO)) {
             move_towards_point(560, 960, other.speedmod)
         }
     } else {
-        with (instance_create(0, 0, starblueO)) {
+        with (instance_create(-90, -160, starblueO)) {
             move_towards_point(560, 960, other.speedmod)
         }
     }
 } else if star &lt; 8 {
     if star &lt; 5 {
-        with (instance_create(1080, 0, stargreenO)) {
+        with (instance_create(1170, -160, stargreenO)) {
             move_towards_point(560, 960, other.speedmod)
         }
     } else if star &lt; 6 {
-        with (instance_create(1080, 0, staryellowO)) {
+        with (instance_create(1170, -160, staryellowO)) {
             move_towards_point(560, 960, other.speedmod)
         }
     } else if star &lt; 7 {
-        with (instance_create(1080, 0, starredO)) {
+        with (instance_create(1170, -160, starredO)) {
             move_towards_point(560, 960, other.speedmod)
         }
     } else {
-        with (instance_create(1080, 0, starblueO)) {
+        with (instance_create(1170, -160, starblueO)) {
             move_towards_point(560, 960, other.speedmod)
         }
     }
 } else if star &lt; 12 {
     if star &lt; 9 {
-        with (instance_create(0, 1920, stargreenO)) {
+        with (instance_create(-90, 2080, stargreenO)) {
             move_towards_point(560, 960, other.speedmod)
         }
     } else if star &lt; 10 {
-        with (instance_create(0, 1920, staryellowO)) {
+        with (instance_create(-90, 2080, staryellowO)) {
             move_towards_point(560, 960, other.speedmod)
         }
     } else if star &lt; 11 {
-        with (instance_create(0, 1920, starredO)) {
+        with (instance_create(-90, 2080, starredO)) {
             move_towards_point(560, 960, other.speedmod)
         }
     } else {
-        with (instance_create(0, 1920, starblueO)) {
+        with (instance_create(-90, 2080, starblueO)) {
             move_towards_point(560, 960, other.speedmod)
         }
     }
 } else {
     if star &lt; 13 {
-        with (instance_create(1080, 1920, stargreenO)) {
+        with (instance_create(1170, 2080, stargreenO)) {
             move_towards_point(560, 960, other.speedmod)
         }
     } else if star &lt; 14 {
-        with (instance_create(1080, 1920, staryellowO)) {
+        with (instance_create(1170, 2080, staryellowO)) {
             move_towards_point(560, 960, other.speedmod)
         }
     } else if star &lt; 15 {
-        with (instance_create(1080, 1920, starredO)) {
+        with (instance_create(1170, 2080, starredO)) {
             move_towards_point(560, 960, other.speedmod)
         }
     } else {
-        with (instance_create(1080, 1920, starblueO)) {
+        with (instance_create(1170, 2080, starblueO)) {
             move_towards_point(560, 960, other.speedmod)
         }
     }

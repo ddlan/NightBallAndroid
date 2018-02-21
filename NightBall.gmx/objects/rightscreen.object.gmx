@@ -26,7 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>with (nightballO) {
-    image_angle += 90
+    if (left_turn == false) {
+        right_turn = true
+    }
 }
 </string>
           </argument>
