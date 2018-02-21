@@ -29,6 +29,9 @@
     if (right_turn == false) {
         left_turn = true
     }
+    if (turning == true &amp;&amp; next_right == false ) {
+        next_left = true
+    }
 }
 </string>
           </argument>

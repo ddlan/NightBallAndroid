@@ -28,6 +28,10 @@
             <string>left_turn = false
 right_turn = false
 turning = false
+
+next_left = false
+next_right = false
+
 des_angle = 0
 </string>
           </argument>
@@ -71,7 +75,7 @@ des_angle = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var turnspeed = 11.25
+            <string>var turnspeed = 15
 
 if (left_turn == true) {
     if (turning == true) {
@@ -95,6 +99,18 @@ if (image_angle == des_angle) {
     left_turn = false
     right_turn = false
     turning = false
+    
+    if (next_left == true) {
+        left_turn = true
+        next_left = false
+        turning = true
+        des_angle = image_angle - 90
+    } else if (next_right == true) {
+        right_turn = true
+        next_right = false
+        turning = true
+        des_angle = image_angle + 90
+    }
 }
 </string>
           </argument>
